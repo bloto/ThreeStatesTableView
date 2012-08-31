@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6BAF93115F112160034DDD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93015F112160034DDD2 /* UIKit.framework */; };
+		B6BAF93315F112160034DDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93215F112160034DDD2 /* Foundation.framework */; };
+		B6BAF93515F112160034DDD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93415F112160034DDD2 /* CoreGraphics.framework */; };
+		B6BAF93B15F112160034DDD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6BAF93915F112160034DDD2 /* InfoPlist.strings */; };
+		B6BAF93D15F112160034DDD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BAF93C15F112160034DDD2 /* main.m */; };
+		B6BAF94115F112160034DDD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BAF94015F112160034DDD2 /* AppDelegate.m */; };
+		B6BAF94415F112160034DDD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BAF94315F112160034DDD2 /* ViewController.m */; };
+		B6BAF94715F112160034DDD2 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BAF94515F112160034DDD2 /* ViewController_iPhone.xib */; };
+		B6BAF94A15F112160034DDD2 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BAF94815F112160034DDD2 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6BAF92C15F112160034DDD2 /* ThreeStatesTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeStatesTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BAF93015F112160034DDD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6BAF93215F112160034DDD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6BAF93415F112160034DDD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6BAF93815F112160034DDD2 /* ThreeStatesTableView-Info.plist */ = {isa = PBXFileReference; path = "ThreeStatesTableView-Info.plist"; sourceTree = "<group>"; };
+		B6BAF93A15F112160034DDD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6BAF93C15F112160034DDD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6BAF93E15F112160034DDD2 /* ThreeStatesTableView-Prefix.pch */ = {isa = PBXFileReference; path = "ThreeStatesTableView-Prefix.pch"; sourceTree = "<group>"; };
+		B6BAF93F15F112160034DDD2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6BAF94015F112160034DDD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6BAF94215F112160034DDD2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		B6BAF94315F112160034DDD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6BAF94615F112160034DDD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B6BAF94915F112160034DDD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6BAF92915F112160034DDD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BAF93115F112160034DDD2 /* UIKit.framework in Frameworks */,
+				B6BAF93315F112160034DDD2 /* Foundation.framework in Frameworks */,
+				B6BAF93515F112160034DDD2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6BAF92115F112160034DDD2 = {
+			isa = PBXGroup;
+			children = (
+				B6BAF93615F112160034DDD2 /* ThreeStatesTableView */,
+				B6BAF92F15F112160034DDD2 /* Frameworks */,
+				B6BAF92D15F112160034DDD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6BAF92D15F112160034DDD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6BAF92C15F112160034DDD2 /* ThreeStatesTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6BAF92F15F112160034DDD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6BAF93015F112160034DDD2 /* UIKit.framework */,
+				B6BAF93215F112160034DDD2 /* Foundation.framework */,
+				B6BAF93415F112160034DDD2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6BAF93615F112160034DDD2 /* ThreeStatesTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B6BAF93F15F112160034DDD2 /* AppDelegate.h */,
+				B6BAF94015F112160034DDD2 /* AppDelegate.m */,
+				B6BAF94215F112160034DDD2 /* ViewController.h */,
+				B6BAF94315F112160034DDD2 /* ViewController.m */,
+				B6BAF94515F112160034DDD2 /* ViewController_iPhone.xib */,
+				B6BAF94815F112160034DDD2 /* ViewController_iPad.xib */,
+				B6BAF93715F112160034DDD2 /* Supporting Files */,
+			);
+			path = ThreeStatesTableView;
+			sourceTree = "<group>";
+		};
+		B6BAF93715F112160034DDD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6BAF93815F112160034DDD2 /* ThreeStatesTableView-Info.plist */,
+				B6BAF93915F112160034DDD2 /* InfoPlist.strings */,
+				B6BAF93C15F112160034DDD2 /* main.m */,
+				B6BAF93E15F112160034DDD2 /* ThreeStatesTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6BAF92B15F112160034DDD2 /* ThreeStatesTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BAF94D15F112160034DDD2 /* Build configuration list for PBXNativeTarget "ThreeStatesTableView" */;
+			buildPhases = (
+				B6BAF92815F112160034DDD2 /* Sources */,
+				B6BAF92915F112160034DDD2 /* Frameworks */,
+				B6BAF92A15F112160034DDD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeStatesTableView;
+			productName = ThreeStatesTableView;
+			productReference = B6BAF92C15F112160034DDD2 /* ThreeStatesTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6BAF92315F112160034DDD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B6BAF92615F112160034DDD2 /* Build configuration list for PBXProject "ThreeStatesTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6BAF92115F112160034DDD2;
+			productRefGroup = B6BAF92D15F112160034DDD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6BAF92B15F112160034DDD2 /* ThreeStatesTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6BAF92A15F112160034DDD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BAF93B15F112160034DDD2 /* InfoPlist.strings in Resources */,
+				B6BAF94715F112160034DDD2 /* ViewController_iPhone.xib in Resources */,
+				B6BAF94A15F112160034DDD2 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6BAF92815F112160034DDD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BAF93D15F112160034DDD2 /* main.m in Sources */,
+				B6BAF94115F112160034DDD2 /* AppDelegate.m in Sources */,
+				B6BAF94415F112160034DDD2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6BAF93915F112160034DDD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6BAF93A15F112160034DDD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6BAF94515F112160034DDD2 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6BAF94615F112160034DDD2 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B6BAF94815F112160034DDD2 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6BAF94915F112160034DDD2 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6BAF94B15F112160034DDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6BAF94C15F112160034DDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6BAF94E15F112160034DDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeStatesTableView/ThreeStatesTableView-Prefix.pch";
+				INFOPLIST_FILE = "ThreeStatesTableView/ThreeStatesTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6BAF94F15F112160034DDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeStatesTableView/ThreeStatesTableView-Prefix.pch";
+				INFOPLIST_FILE = "ThreeStatesTableView/ThreeStatesTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6BAF92615F112160034DDD2 /* Build configuration list for PBXProject "ThreeStatesTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BAF94B15F112160034DDD2 /* Debug */,
+				B6BAF94C15F112160034DDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BAF94D15F112160034DDD2 /* Build configuration list for PBXNativeTarget "ThreeStatesTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BAF94E15F112160034DDD2 /* Debug */,
+				B6BAF94F15F112160034DDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6BAF92315F112160034DDD2 /* Project object */;
+}
