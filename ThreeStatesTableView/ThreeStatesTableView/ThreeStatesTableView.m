@@ -36,7 +36,8 @@
 	
 	// calculate frames per header, content and footer,
 	CGRect headerFrame = CGRectMake(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height * headerPercentage);
-	CGRect contentFrame = CGRectMake(frame.origin.x + MARGIN, frame.origin.y + headerFrame.size.height , frame.size.width - 2 * MARGIN, frame.size.height - frame.size.height * headerPercentage - frame.size.height * footerPercentage);
+    CGRect contentFrame = CGRectMake(frame.origin.x, frame.origin.y + headerFrame.size.height , frame.size.width, frame.size.height - frame.size.height * headerPercentage - frame.size.height * footerPercentage);
+	CGRect tableViewFrame = CGRectMake(MARGIN, 0 , contentFrame.size.width - 2 * MARGIN, contentFrame.size.height);
 	CGRect footerFrame = CGRectMake(frame.origin.x, frame.origin.y + headerFrame.size.height + contentFrame.size.height, frame.size.width, frame.size.height * footerPercentage);
     
 	// create main elements
@@ -58,7 +59,7 @@
     lineView.backgroundColor = [UIColor grayColor];
     [header addSubview:lineView];
     
-	tableView = [[UITableView alloc] initWithFrame:contentFrame style:UITableViewStylePlain];
+	tableView = [[UITableView alloc] initWithFrame:tableViewFrame style:UITableViewStylePlain];
 	if (tableView == nil)
 	{
 		return nil;
@@ -73,7 +74,17 @@
     [tableView setSeparatorColor:[UIColor darkGrayColor]];
     [tableView setIndicatorStyle:UIScrollViewIndicatorStyleWhite];
     
-    [tableView setScrollIndicatorInsets:UIEdgeInsetsMake(0,0,0,-2)];    
+    [tableView setScrollIndicatorInsets:UIEdgeInsetsMake(0,0,0,-MARGIN)];
+    [tableView setClipsToBounds:NO];
+    
+    tableViewContainer = [[UIView alloc] initWithFrame:contentFrame];
+    if (tableViewContainer == nil)
+    {
+        return nil;
+    }
+    // This one will be clipped
+    [tableViewContainer addSubview:tableView];
+    [tableViewContainer setClipsToBounds:YES];
     
     footer = [[UIView alloc] initWithFrame:footerFrame];
 	if (footer == nil)
@@ -105,7 +116,7 @@
     self.backgroundColor = [UIColor colorWithRed:TO_RED green:TO_GREEN blue:TO_BLUE alpha:1.0f];
     
     [self addSubview:header];
-	[self addSubview:tableView];
+	[self addSubview:tableViewContainer];
 	[self addSubview:footer];
     
 	return self;	

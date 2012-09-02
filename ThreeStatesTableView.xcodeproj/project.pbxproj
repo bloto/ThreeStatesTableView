@@ -68,7 +68,6 @@
 		B6BAF92115F112160034DDD2 = {
 			isa = PBXGroup;
 			children = (
-				B6BAF96E15F12BF70034DDD2 /* QuartzCore.framework */,
 				B6BAF93615F112160034DDD2 /* ThreeStatesTableView */,
 				B6BAF92F15F112160034DDD2 /* Frameworks */,
 				B6BAF92D15F112160034DDD2 /* Products */,
@@ -86,6 +85,7 @@
 		B6BAF92F15F112160034DDD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6BAF96E15F12BF70034DDD2 /* QuartzCore.framework */,
 				B6BAF93015F112160034DDD2 /* UIKit.framework */,
 				B6BAF93215F112160034DDD2 /* Foundation.framework */,
 				B6BAF93415F112160034DDD2 /* CoreGraphics.framework */,

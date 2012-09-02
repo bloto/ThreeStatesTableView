@@ -12,8 +12,12 @@
 	UIView	 *header;
 	UIView	 *footer;
     NSInteger lastSelectedIndexPathRow;
+
+    // this is to allow scroll indicator to be moved out of tableView space
+    UIView *tableViewContainer;
 }
 @property(strong, readwrite) UITableView *tableView;
+
 
 - (id)initWithFrame:(CGRect)frame withHeaderTitle:(NSString *)headerTitle andFooterButtons:(NSArray *)buttons withHeaderOfSize:(CGFloat)headerPercentage andFooterOfSize:(CGFloat)footerPercentage;
 
