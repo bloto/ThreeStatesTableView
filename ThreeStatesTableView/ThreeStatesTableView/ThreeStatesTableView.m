@@ -102,7 +102,7 @@
 	
 	for (UIButton* button in buttons)
 	{
-		[button setFrame:CGRectMake(initialXPosition + buttonWidthSpace/4, footerFrame.size.height/4, buttonWidthSpace/2, footerFrame.size.height/2)];
+		[button setFrame:CGRectMake(initialXPosition + buttonWidthSpace/6, footerFrame.size.height/4, buttonWidthSpace/1.5, footerFrame.size.height/2)];
         
         [button.titleLabel setFont:[UIFont fontWithName:@"Courier" size:footerFrame.size.height/4]];
         [button setBackgroundImage:[UIImage imageNamed:@"ButtonBackgroundNormal"] forState:UIControlStateNormal];
