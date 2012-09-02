@@ -109,7 +109,8 @@
         [button setBackgroundImage:[UIImage imageNamed:@"ButtonBackgroundHighlighted"] forState:UIControlStateHighlighted];
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
-        
+        [[button layer] setCornerRadius:5.0f];
+        [button setClipsToBounds:YES];
 		initialXPosition += buttonWidthSpace;
 		[footer addSubview:button];
 	}

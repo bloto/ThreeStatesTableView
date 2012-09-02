@@ -11,6 +11,8 @@
 		B67016CC15F2B2E00057F215 /* IconEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = B67016CA15F2B2E00057F215 /* IconEmpty.png */; };
 		B67016CF15F2C6750057F215 /* ButtonBackgroundHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B67016CD15F2C6750057F215 /* ButtonBackgroundHighlighted.png */; };
 		B67016D015F2C6750057F215 /* ButtonBackgroundNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = B67016CE15F2C6750057F215 /* ButtonBackgroundNormal.png */; };
+		B68F108715F38D6500D2A4D3 /* screenshoot.png in Resources */ = {isa = PBXBuildFile; fileRef = B68F108615F38D6500D2A4D3 /* screenshoot.png */; };
+		B68F10B115F3A0EC00D2A4D3 /* ThreeStatesTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BAF96B15F112B10034DDD2 /* ThreeStatesTableView.h */; };
 		B6BAF93115F112160034DDD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93015F112160034DDD2 /* UIKit.framework */; };
 		B6BAF93315F112160034DDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93215F112160034DDD2 /* Foundation.framework */; };
 		B6BAF93515F112160034DDD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93415F112160034DDD2 /* CoreGraphics.framework */; };
@@ -30,6 +32,7 @@
 		B67016CA15F2B2E00057F215 /* IconEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconEmpty.png; sourceTree = "<group>"; };
 		B67016CD15F2C6750057F215 /* ButtonBackgroundHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackgroundHighlighted.png; sourceTree = "<group>"; };
 		B67016CE15F2C6750057F215 /* ButtonBackgroundNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackgroundNormal.png; sourceTree = "<group>"; };
+		B68F108615F38D6500D2A4D3 /* screenshoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshoot.png; sourceTree = "<group>"; };
 		B6BAF92C15F112160034DDD2 /* ThreeStatesTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeStatesTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BAF93015F112160034DDD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6BAF93215F112160034DDD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +99,7 @@
 		B6BAF93615F112160034DDD2 /* ThreeStatesTableView */ = {
 			isa = PBXGroup;
 			children = (
+				B68F108615F38D6500D2A4D3 /* screenshoot.png */,
 				B6BAF97815F1618D0034DDD2 /* Icons */,
 				B6BAF96A15F112B10034DDD2 /* ThreeStatesTableView */,
 				B6BAF93F15F112160034DDD2 /* AppDelegate.h */,
@@ -143,6 +147,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		B68F10B015F3A0CD00D2A4D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68F10B115F3A0EC00D2A4D3 /* ThreeStatesTableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		B6BAF92B15F112160034DDD2 /* ThreeStatesTableView */ = {
 			isa = PBXNativeTarget;
@@ -151,6 +166,7 @@
 				B6BAF92815F112160034DDD2 /* Sources */,
 				B6BAF92915F112160034DDD2 /* Frameworks */,
 				B6BAF92A15F112160034DDD2 /* Resources */,
+				B68F10B015F3A0CD00D2A4D3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -199,6 +215,7 @@
 				B67016CC15F2B2E00057F215 /* IconEmpty.png in Resources */,
 				B67016CF15F2C6750057F215 /* ButtonBackgroundHighlighted.png in Resources */,
 				B67016D015F2C6750057F215 /* ButtonBackgroundNormal.png in Resources */,
+				B68F108715F38D6500D2A4D3 /* screenshoot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +285,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -288,6 +306,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
