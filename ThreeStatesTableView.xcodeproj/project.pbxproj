@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B67016CB15F2B2E00057F215 /* IconSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = B67016C915F2B2E00057F215 /* IconSelected.png */; };
+		B67016CC15F2B2E00057F215 /* IconEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = B67016CA15F2B2E00057F215 /* IconEmpty.png */; };
+		B67016CF15F2C6750057F215 /* ButtonBackgroundHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B67016CD15F2C6750057F215 /* ButtonBackgroundHighlighted.png */; };
+		B67016D015F2C6750057F215 /* ButtonBackgroundNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = B67016CE15F2C6750057F215 /* ButtonBackgroundNormal.png */; };
 		B6BAF93115F112160034DDD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93015F112160034DDD2 /* UIKit.framework */; };
 		B6BAF93315F112160034DDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93215F112160034DDD2 /* Foundation.framework */; };
 		B6BAF93515F112160034DDD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93415F112160034DDD2 /* CoreGraphics.framework */; };
@@ -16,23 +20,34 @@
 		B6BAF94415F112160034DDD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BAF94315F112160034DDD2 /* ViewController.m */; };
 		B6BAF94715F112160034DDD2 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BAF94515F112160034DDD2 /* ViewController_iPhone.xib */; };
 		B6BAF94A15F112160034DDD2 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BAF94815F112160034DDD2 /* ViewController_iPad.xib */; };
+		B6BAF96D15F112B10034DDD2 /* ThreeStatesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BAF96C15F112B10034DDD2 /* ThreeStatesTableView.m */; };
+		B6BAF96F15F12BF70034DDD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF96E15F12BF70034DDD2 /* QuartzCore.framework */; };
+		B6BAF98415F217FC0034DDD2 /* IconStar.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BAF98315F217FC0034DDD2 /* IconStar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B67016C915F2B2E00057F215 /* IconSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconSelected.png; sourceTree = "<group>"; };
+		B67016CA15F2B2E00057F215 /* IconEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconEmpty.png; sourceTree = "<group>"; };
+		B67016CD15F2C6750057F215 /* ButtonBackgroundHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackgroundHighlighted.png; sourceTree = "<group>"; };
+		B67016CE15F2C6750057F215 /* ButtonBackgroundNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackgroundNormal.png; sourceTree = "<group>"; };
 		B6BAF92C15F112160034DDD2 /* ThreeStatesTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeStatesTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BAF93015F112160034DDD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6BAF93215F112160034DDD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6BAF93415F112160034DDD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B6BAF93815F112160034DDD2 /* ThreeStatesTableView-Info.plist */ = {isa = PBXFileReference; path = "ThreeStatesTableView-Info.plist"; sourceTree = "<group>"; };
+		B6BAF93815F112160034DDD2 /* ThreeStatesTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeStatesTableView-Info.plist"; sourceTree = "<group>"; };
 		B6BAF93A15F112160034DDD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6BAF93C15F112160034DDD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B6BAF93E15F112160034DDD2 /* ThreeStatesTableView-Prefix.pch */ = {isa = PBXFileReference; path = "ThreeStatesTableView-Prefix.pch"; sourceTree = "<group>"; };
-		B6BAF93F15F112160034DDD2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6BAF93E15F112160034DDD2 /* ThreeStatesTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeStatesTableView-Prefix.pch"; sourceTree = "<group>"; };
+		B6BAF93F15F112160034DDD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6BAF94015F112160034DDD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6BAF94215F112160034DDD2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		B6BAF94215F112160034DDD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B6BAF94315F112160034DDD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B6BAF94615F112160034DDD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		B6BAF94915F112160034DDD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B6BAF96B15F112B10034DDD2 /* ThreeStatesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeStatesTableView.h; sourceTree = "<group>"; };
+		B6BAF96C15F112B10034DDD2 /* ThreeStatesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeStatesTableView.m; sourceTree = "<group>"; };
+		B6BAF96E15F12BF70034DDD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6BAF98315F217FC0034DDD2 /* IconStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconStar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6BAF96F15F12BF70034DDD2 /* QuartzCore.framework in Frameworks */,
 				B6BAF93115F112160034DDD2 /* UIKit.framework in Frameworks */,
 				B6BAF93315F112160034DDD2 /* Foundation.framework in Frameworks */,
 				B6BAF93515F112160034DDD2 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +68,7 @@
 		B6BAF92115F112160034DDD2 = {
 			isa = PBXGroup;
 			children = (
+				B6BAF96E15F12BF70034DDD2 /* QuartzCore.framework */,
 				B6BAF93615F112160034DDD2 /* ThreeStatesTableView */,
 				B6BAF92F15F112160034DDD2 /* Frameworks */,
 				B6BAF92D15F112160034DDD2 /* Products */,
@@ -79,6 +96,8 @@
 		B6BAF93615F112160034DDD2 /* ThreeStatesTableView */ = {
 			isa = PBXGroup;
 			children = (
+				B6BAF97815F1618D0034DDD2 /* Icons */,
+				B6BAF96A15F112B10034DDD2 /* ThreeStatesTableView */,
 				B6BAF93F15F112160034DDD2 /* AppDelegate.h */,
 				B6BAF94015F112160034DDD2 /* AppDelegate.m */,
 				B6BAF94215F112160034DDD2 /* ViewController.h */,
@@ -99,6 +118,27 @@
 				B6BAF93E15F112160034DDD2 /* ThreeStatesTableView-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6BAF96A15F112B10034DDD2 /* ThreeStatesTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B6BAF96B15F112B10034DDD2 /* ThreeStatesTableView.h */,
+				B6BAF96C15F112B10034DDD2 /* ThreeStatesTableView.m */,
+			);
+			path = ThreeStatesTableView;
+			sourceTree = "<group>";
+		};
+		B6BAF97815F1618D0034DDD2 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B67016CD15F2C6750057F215 /* ButtonBackgroundHighlighted.png */,
+				B67016CE15F2C6750057F215 /* ButtonBackgroundNormal.png */,
+				B67016C915F2B2E00057F215 /* IconSelected.png */,
+				B67016CA15F2B2E00057F215 /* IconEmpty.png */,
+				B6BAF98315F217FC0034DDD2 /* IconStar.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +194,11 @@
 				B6BAF93B15F112160034DDD2 /* InfoPlist.strings in Resources */,
 				B6BAF94715F112160034DDD2 /* ViewController_iPhone.xib in Resources */,
 				B6BAF94A15F112160034DDD2 /* ViewController_iPad.xib in Resources */,
+				B6BAF98415F217FC0034DDD2 /* IconStar.png in Resources */,
+				B67016CB15F2B2E00057F215 /* IconSelected.png in Resources */,
+				B67016CC15F2B2E00057F215 /* IconEmpty.png in Resources */,
+				B67016CF15F2C6750057F215 /* ButtonBackgroundHighlighted.png in Resources */,
+				B67016D015F2C6750057F215 /* ButtonBackgroundNormal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +212,7 @@
 				B6BAF93D15F112160034DDD2 /* main.m in Sources */,
 				B6BAF94115F112160034DDD2 /* AppDelegate.m in Sources */,
 				B6BAF94415F112160034DDD2 /* ViewController.m in Sources */,
+				B6BAF96D15F112B10034DDD2 /* ThreeStatesTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +334,7 @@
 				B6BAF94F15F112160034DDD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

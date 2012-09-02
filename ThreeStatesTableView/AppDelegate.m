@@ -1,9 +1,9 @@
 //
-//  AppDelegate.m
+//  AppDelegate.h
 //  ThreeStatesTableView
 //
-//  Created by TZ on 31/08/2012.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Tomasz Zablocki (skalamandra@gmail.com) on 31/08/2012.
+//  Copyright (c) 2012. All rights granted.
 //
 
 #import "AppDelegate.h"
