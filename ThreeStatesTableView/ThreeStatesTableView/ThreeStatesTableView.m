@@ -52,7 +52,7 @@
 	titleLabel.textColor = [UIColor colorWithRed:TITLE_RED green:TITLE_GREEN blue:TITLE_BLUE alpha:1.0f];
 	titleLabel.backgroundColor = [UIColor blackColor];
     
-    titleLabel.font = [UIFont fontWithName:@"Courier" size:(26.0)];
+    titleLabel.font = [UIFont fontWithName:@"Courier" size:(headerFrame.size.height/3)];
     [titleLabel adjustsFontSizeToFitWidth];
 	[header addSubview:titleLabel];
     UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(headerFrame.origin.x + MARGIN, headerFrame.origin.y + headerFrame.size.height - 2, headerFrame.size.width - 2 * MARGIN, 1)]; 
