@@ -8,16 +8,6 @@
 #import "ThreeStatesTableView.h"
 #import <QuartzCore/QuartzCore.h>
 
-#define FROM_RED 0.0f
-#define FROM_GREEN 0.0f
-#define FROM_BLUE 0.0f
-#define TO_RED 0.0f
-#define TO_GREEN 0.0f
-#define TO_BLUE 1.0f
-#define TITLE_RED 0.9f
-#define TITLE_GREEN 0.9f
-#define TITLE_BLUE 0.6f
-
 // in points
 #define MARGIN 10.0f
 
@@ -136,6 +126,38 @@
         [selectedView setBackgroundColor:[UIColor colorWithRed:0.5f green:0.5f blue:0.5f alpha:0.3f]];
         [cell setSelectedBackgroundView:selectedView];
     }
+    int cellHeight = tableView.frame.size.height/4.0f;
+    cell.textLabel.textColor = [UIColor grayColor];
+    cell.textLabel.font = [UIFont fontWithName:@"Courier" size:(cellHeight/3)];
+    cell.detailTextLabel.textColor = [UIColor grayColor];
+    cell.detailTextLabel.font = [UIFont fontWithName:@"Courier" size:(cellHeight/5)];
+    
+    if (lastSelectedIndexPathRow == indexPath.row)
+    {
+        cell.imageView.image = [UIImage imageNamed:@"IconSelected.png"];
+    }
+    else {
+        cell.imageView.image = [UIImage imageNamed:@"IconEmpty.png"];
+    }
+    
+    UIImage *image = [UIImage imageNamed:@"IconStar.png"];
+    UIView *imageView = [[UIImageView alloc] initWithImage:image];
+    
+    // icons are square
+    imageView.bounds = CGRectMake(0, 0, cellHeight, cellHeight);
+    cell.accessoryView = imageView;
+    return cell;
+}
+
+- (UITableViewCell *)prepareNoReusableCellForRowAtIndexPath:(NSIndexPath *)indexPath;
+{
+    static NSString *CellIdentifier=@"Cell";
+    
+    UITableViewCell *cell;
+    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+    UIView *selectedView = [[UIView alloc] initWithFrame:cell.frame];
+    [selectedView setBackgroundColor:[UIColor colorWithRed:0.5f green:0.5f blue:0.5f alpha:0.3f]];
+    [cell setSelectedBackgroundView:selectedView];
     int cellHeight = tableView.frame.size.height/4.0f;
     cell.textLabel.textColor = [UIColor grayColor];
     cell.textLabel.font = [UIFont fontWithName:@"Courier" size:(cellHeight/3)];

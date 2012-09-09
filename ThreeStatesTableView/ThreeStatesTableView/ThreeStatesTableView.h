@@ -7,6 +7,16 @@
 //
 #import <UIKit/UIKit.h>
 
+#define FROM_RED 0.0f
+#define FROM_GREEN 0.0f
+#define FROM_BLUE 0.0f
+#define TO_RED 0.0f
+#define TO_GREEN 0.0f
+#define TO_BLUE 1.0f
+#define TITLE_RED 0.9f
+#define TITLE_GREEN 0.9f
+#define TITLE_BLUE 0.6f
+
 @interface ThreeStatesTableView : UIView
 {
 	UIView	 *header;
@@ -22,6 +32,10 @@
 - (id)initWithFrame:(CGRect)frame withHeaderTitle:(NSString *)headerTitle andFooterButtons:(NSArray *)buttons withHeaderOfSize:(CGFloat)headerPercentage andFooterOfSize:(CGFloat)footerPercentage;
 
 - (UITableViewCell *)prepareCellForRowAtIndexPath:(NSIndexPath *)indexPath;
+
+// might be used in case every row is different, then it doesn't make sense to find reusable cell
+- (UITableViewCell *)prepareNoReusableCellForRowAtIndexPath:(NSIndexPath *)indexPath;
+
 - (void)handleDidSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
