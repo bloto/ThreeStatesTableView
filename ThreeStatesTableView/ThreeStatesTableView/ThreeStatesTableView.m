@@ -100,6 +100,8 @@
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
         [[button layer] setCornerRadius:5.0f];
+        //[button.titleLabel setShadowColor:[UIColor blackColor]];
+        //[button.titleLabel setShadowOffset:CGSizeMake(1.0f,1.0f)];
         [button setClipsToBounds:YES];
 		initialXPosition += buttonWidthSpace;
 		[footer addSubview:button];
