@@ -41,7 +41,7 @@
     [buttons addObject:button2];
     [buttons addObject:button3];
     
-    threeStatesTableView = [[ThreeStatesTableView alloc] initWithFrame:[[self view] frame] withHeaderTitle:@"THREESTATESTABLEVIEW EXAMPLE" andFooterButtons:buttons withHeaderOfSize:0.15f andFooterOfSize:0.15f];
+    threeStatesTableView = [[ThreeStatesTableView alloc] initWithFrame:[[self view] frame] withHeaderTitle:@"THREESTATESTABLEVIEW EXAMPLE" headerButtons:nil andFooterButtons:buttons withHeaderOfSize:0.15f andFooterOfSize:0.15f];
     [threeStatesTableView.tableView setDelegate:self];
     [threeStatesTableView.tableView setDataSource:self];
     
