@@ -13,6 +13,10 @@
 		B67016D015F2C6750057F215 /* ButtonBackgroundNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = B67016CE15F2C6750057F215 /* ButtonBackgroundNormal.png */; };
 		B68F108715F38D6500D2A4D3 /* screenshoot.png in Resources */ = {isa = PBXBuildFile; fileRef = B68F108615F38D6500D2A4D3 /* screenshoot.png */; };
 		B68F10B115F3A0EC00D2A4D3 /* ThreeStatesTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BAF96B15F112B10034DDD2 /* ThreeStatesTableView.h */; };
+		B69C9AEA16016A7300202D50 /* ReloadButtonBackgroundHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B69C9AE616016A7300202D50 /* ReloadButtonBackgroundHighlighted.png */; };
+		B69C9AEB16016A7300202D50 /* ReloadButtonBackgroundNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = B69C9AE716016A7300202D50 /* ReloadButtonBackgroundNormal.png */; };
+		B69C9AEC16016A7300202D50 /* SearchButtonBackgroundHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B69C9AE816016A7300202D50 /* SearchButtonBackgroundHighlighted.png */; };
+		B69C9AED16016A7300202D50 /* SearchButtonBackgroundNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = B69C9AE916016A7300202D50 /* SearchButtonBackgroundNormal.png */; };
 		B6BAF93115F112160034DDD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93015F112160034DDD2 /* UIKit.framework */; };
 		B6BAF93315F112160034DDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93215F112160034DDD2 /* Foundation.framework */; };
 		B6BAF93515F112160034DDD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BAF93415F112160034DDD2 /* CoreGraphics.framework */; };
@@ -33,6 +37,10 @@
 		B67016CD15F2C6750057F215 /* ButtonBackgroundHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackgroundHighlighted.png; sourceTree = "<group>"; };
 		B67016CE15F2C6750057F215 /* ButtonBackgroundNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonBackgroundNormal.png; sourceTree = "<group>"; };
 		B68F108615F38D6500D2A4D3 /* screenshoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshoot.png; sourceTree = "<group>"; };
+		B69C9AE616016A7300202D50 /* ReloadButtonBackgroundHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReloadButtonBackgroundHighlighted.png; sourceTree = "<group>"; };
+		B69C9AE716016A7300202D50 /* ReloadButtonBackgroundNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReloadButtonBackgroundNormal.png; sourceTree = "<group>"; };
+		B69C9AE816016A7300202D50 /* SearchButtonBackgroundHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchButtonBackgroundHighlighted.png; sourceTree = "<group>"; };
+		B69C9AE916016A7300202D50 /* SearchButtonBackgroundNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchButtonBackgroundNormal.png; sourceTree = "<group>"; };
 		B6BAF92C15F112160034DDD2 /* ThreeStatesTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeStatesTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BAF93015F112160034DDD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6BAF93215F112160034DDD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -136,6 +144,10 @@
 		B6BAF97815F1618D0034DDD2 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				B69C9AE616016A7300202D50 /* ReloadButtonBackgroundHighlighted.png */,
+				B69C9AE716016A7300202D50 /* ReloadButtonBackgroundNormal.png */,
+				B69C9AE816016A7300202D50 /* SearchButtonBackgroundHighlighted.png */,
+				B69C9AE916016A7300202D50 /* SearchButtonBackgroundNormal.png */,
 				B67016CD15F2C6750057F215 /* ButtonBackgroundHighlighted.png */,
 				B67016CE15F2C6750057F215 /* ButtonBackgroundNormal.png */,
 				B67016C915F2B2E00057F215 /* IconSelected.png */,
@@ -216,6 +228,10 @@
 				B67016CF15F2C6750057F215 /* ButtonBackgroundHighlighted.png in Resources */,
 				B67016D015F2C6750057F215 /* ButtonBackgroundNormal.png in Resources */,
 				B68F108715F38D6500D2A4D3 /* screenshoot.png in Resources */,
+				B69C9AEA16016A7300202D50 /* ReloadButtonBackgroundHighlighted.png in Resources */,
+				B69C9AEB16016A7300202D50 /* ReloadButtonBackgroundNormal.png in Resources */,
+				B69C9AEC16016A7300202D50 /* SearchButtonBackgroundHighlighted.png in Resources */,
+				B69C9AED16016A7300202D50 /* SearchButtonBackgroundNormal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,17 +19,22 @@
 
 @interface ThreeStatesTableView : UIView
 {
-	UIView	 *header;
-	UIView	 *footer;
     NSInteger lastSelectedIndexPathRow;
-
-    // this is to allow scroll indicator to be moved out of tableView space
-    UIView *tableViewContainer;
 }
-@property(strong, readwrite) UITableView *tableView;
+@property(strong, nonatomic) UIView *lineView;
+@property(readwrite, nonatomic) CGRect lineViewFrame;
+@property(strong, nonatomic) UIView *header;
+@property(readwrite, nonatomic) CGRect headerFrame;
 
+// this is to allow scroll indicator to be moved out of tableView space
+@property(strong, nonatomic) UIView *tableViewContainer;
+@property(readwrite, nonatomic) CGRect contentFrame;
+@property(strong, nonatomic) UITableView *tableView;
+@property(readwrite, nonatomic) CGRect tableViewFrame;
+@property(strong, nonatomic) UIView *footer;
+@property(readwrite, nonatomic) CGRect footerFrame;
 
-- (id)initWithFrame:(CGRect)frame withHeaderTitle:(NSString *)headerTitle andFooterButtons:(NSArray *)buttons withHeaderOfSize:(CGFloat)headerPercentage andFooterOfSize:(CGFloat)footerPercentage;
+- (id)initWithFrame:(CGRect)frame withHeaderTitle:(NSString *)headerTitle headerButtons:(NSArray *)headerButtons andFooterButtons:(NSArray *)footerButtons withHeaderOfSize:(CGFloat)headerPercentage andFooterOfSize:(CGFloat)footerPercentage;
 
 - (UITableViewCell *)prepareCellForRowAtIndexPath:(NSIndexPath *)indexPath;
 
