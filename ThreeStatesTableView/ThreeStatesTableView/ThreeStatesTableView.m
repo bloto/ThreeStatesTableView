@@ -23,6 +23,7 @@
 @synthesize tableViewFrame;
 @synthesize footer;
 @synthesize footerFrame;
+@synthesize lastSelectedIndexPathRow;
 
 // buttons are needed at this stage since I want to reposition them correctly
 - (id)initWithFrame:(CGRect)frame withHeaderTitle:(NSString *)headerTitle headerButtons:(NSArray *)headerButtons andFooterButtons:(NSArray *)footerButtons withHeaderOfSize:(CGFloat)headerPercentage andFooterOfSize:(CGFloat)footerPercentage;

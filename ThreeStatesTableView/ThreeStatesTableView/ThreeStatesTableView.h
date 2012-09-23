@@ -18,21 +18,19 @@
 #define TITLE_BLUE 0.6f
 
 @interface ThreeStatesTableView : UIView
-{
-    NSInteger lastSelectedIndexPathRow;
-}
-@property(strong, nonatomic) UIView *lineView;
-@property(readwrite, nonatomic) CGRect lineViewFrame;
-@property(strong, nonatomic) UIView *header;
-@property(readwrite, nonatomic) CGRect headerFrame;
+@property (readwrite, nonatomic) NSInteger lastSelectedIndexPathRow;
+@property (strong, nonatomic) UIView *lineView;
+@property (readwrite, nonatomic) CGRect lineViewFrame;
+@property (strong, nonatomic) UIView *header;
+@property (readwrite, nonatomic) CGRect headerFrame;
 
 // this is to allow scroll indicator to be moved out of tableView space
-@property(strong, nonatomic) UIView *tableViewContainer;
-@property(readwrite, nonatomic) CGRect contentFrame;
-@property(strong, nonatomic) UITableView *tableView;
-@property(readwrite, nonatomic) CGRect tableViewFrame;
-@property(strong, nonatomic) UIView *footer;
-@property(readwrite, nonatomic) CGRect footerFrame;
+@property (strong, nonatomic) UIView *tableViewContainer;
+@property (readwrite, nonatomic) CGRect contentFrame;
+@property (strong, nonatomic) UITableView *tableView;
+@property (readwrite, nonatomic) CGRect tableViewFrame;
+@property (strong, nonatomic) UIView *footer;
+@property (readwrite, nonatomic) CGRect footerFrame;
 
 - (id)initWithFrame:(CGRect)frame withHeaderTitle:(NSString *)headerTitle headerButtons:(NSArray *)headerButtons andFooterButtons:(NSArray *)footerButtons withHeaderOfSize:(CGFloat)headerPercentage andFooterOfSize:(CGFloat)footerPercentage;
 
